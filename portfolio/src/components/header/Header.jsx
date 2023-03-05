@@ -11,7 +11,7 @@ const Header = () => {
 				<div className='nav__menu'>
 					<ul className='nav__list grid'>
 						<li className='nav__item'>
-							<a href='#home' className='nav__link'>
+							<a href='#home' className='nav__link active-link'>
 								<i className='uil uil-estate nav__icon'></i> Home
 							</a>
 						</li>
@@ -27,7 +27,7 @@ const Header = () => {
 						</li>
 						<li className='nav__item'>
 							<a href='#services' className='nav__link'>
-								<i className='uil uil-brifecase-alt nav__icon'></i> Services
+								<i className='uil uil-briefcase-alt nav__icon'></i> Services
 							</a>
 						</li>
 						<li className='nav__item'>
