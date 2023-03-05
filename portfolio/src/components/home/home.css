@@ -1,3 +1,7 @@
+.home__container {
+    row-gap: 7rem;
+}
+
 .home__content {
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
@@ -81,4 +85,53 @@
     100% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
+}
+
+.home__scroll {
+    margin-left: 9.25rem;
+}
+
+.wheel {
+    animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(3.75rem);
+    }
+}
+
+.home__scroll-name {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+}
+
+.home__scroll-arrow {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
 }
