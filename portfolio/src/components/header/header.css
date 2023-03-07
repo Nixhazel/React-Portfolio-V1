@@ -2,7 +2,7 @@
     width: 100%;
     position: fixed;
     /*top: 0; this is the origina size but i changed it to look exactly like the sample*/
-    top: 1rem;
+    top: 0;
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
