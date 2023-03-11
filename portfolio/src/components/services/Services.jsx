@@ -15,9 +15,9 @@ const Services = () => {
 			<div className='services__container container grid'>
 				<div className='services__content'>
 					<div>
-						<i className='uil uil-web-grid services__icon'></i>
+						<i className='uil uil-window services__icon'></i>
 						<h3 className='services__title'>
-							Product <br /> Designer
+							Full Stack <br /> Developer
 						</h3>
 					</div>
 					<span className='services__button' onClick={() => toggleTab(1)}>
@@ -36,9 +36,9 @@ const Services = () => {
 								onClick={() => toggleTab(0)}
 								className='uil uil-times services__modal-close'></i>
 
-							<h3 className='services__modal-title'>Product Designer</h3>
+							<h3 className='services__modal-title'>Full Stack Developer</h3>
 							<p className='services__modal-description'>
-								Service with 2 years of experience.Providing quality work to
+								Service with 2 years of experience. providing quality full stack applications to
 								clients and companies.
 							</p>
 
@@ -86,7 +86,7 @@ const Services = () => {
 					<div>
 						<i className='uil uil-arrow services__icon'></i>
 						<h3 className='services__title'>
-							Ui/Ux <br /> Designer
+							Back-End <br /> Developer
 						</h3>
 					</div>
 					<span onClick={() => toggleTab(2)} className='services__button'>
@@ -105,9 +105,9 @@ const Services = () => {
 								onClick={() => toggleTab(0)}
 								className='uil uil-times services__modal-close'></i>
 
-							<h3 className='services__modal-title'>Ui/Ux Designer</h3>
+							<h3 className='services__modal-title'>Back-End Developer</h3>
 							<p className='services__modal-description'>
-								Service with 2 years of experience.Providing quality work to
+								Service with 2 years of experience. providing quality server side applications to
 								clients and companies.
 							</p>
 
