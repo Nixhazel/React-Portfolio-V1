@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./qualification.css";
 
 const Qualification = () => {
+	const [toggleState, setToggleState] = useState(1);
+
+	const toggleTab = (index) => {
+		setToggleState(index);
+	};
 	return (
 		<section className='qualification section'>
 			<h2 className='section__title'>Qualification</h2>
@@ -9,19 +14,37 @@ const Qualification = () => {
 
 			<div className='qualification__container container'>
 				<div className='qualification__tabs'>
-					<div className='qualification__button qualification__active button--flex'>
-						<i className='uil uil-graduation-cap qualification__icon'></i>{" "}
+					<div
+						className={
+							toggleState === 1
+								? "qualification__button qualification__active button--flex"
+								: "qualification__button button--flex"
+						}
+						onClick={() => toggleTab(1)}>
+						<i className='uil uil-graduation-cap qualification__icon'></i>
 						Education
 					</div>
 
-					<div className='qualification__button button--flex'>
-						<i className='uil uil-briefcase-alt qualification__icon'></i>{" "}
+					<div
+						className={
+							toggleState === 2
+								? "qualification__button qualification__active button--flex"
+								: "qualification__button button--flex"
+						}
+						onClick={() => toggleTab(2)}
+					>
+						<i className='uil uil-briefcase-alt qualification__icon'></i>
 						Experience
 					</div>
 				</div>
 
 				<div className='qualification__sections'>
-					<div className='qualification__content qualification__content-active'>
+					<div
+						className={
+							toggleState === 1
+								? "qualification__content qualification__content-active"
+								: "qualification__content"
+						}>
 						<div className='qualification__data'>
 							<div>
 								<h3 className='qualification__title'>web Design</h3>
@@ -93,7 +116,12 @@ const Qualification = () => {
 						</div>
 					</div>
 
-					<div className='qualification__content'>
+					<div
+						className={
+							toggleState === 2
+								? "qualification__content qualification__content-active"
+								: "qualification__content"
+						}>
 						<div className='qualification__data'>
 							<div>
 								<h3 className='qualification__title'>product Design</h3>
