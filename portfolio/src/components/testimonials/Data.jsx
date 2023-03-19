@@ -6,9 +6,9 @@ export const Data = [
 	{
 		id: 1,
 		image: Image1,
-		title: "Jhon Doe",
+		title: "Peter Basil",
 		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
+			"Expert software engineering tutor. Improved my programming skills and confidence. Highly recommended.",
 	},
 	{
 		id: 2,
@@ -17,11 +17,11 @@ export const Data = [
 		description:
 			"A really good job, all aspects of the project were followed step by step and with good results.",
 	},
-	{
-		id: 3,
-		image: Image3,
-		title: "Sara Cill",
-		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
-	},
+	// {
+	// 	id: 3,
+	// 	image: Image3,
+	// 	title: "Sara Cill",
+	// 	description:
+	// 		"A really good job, all aspects of the project were followed step by step and with good results.",
+	// },
 ];
