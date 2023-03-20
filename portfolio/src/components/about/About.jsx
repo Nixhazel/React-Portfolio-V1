@@ -17,8 +17,12 @@ const About = () => {
 					<Info />
 
 					<p className='about__description'>
-						MERN Stack Developer, I create web applications using MongoDb,
-						MySql, Express, React, Node, Typescript and GraphQL. I build suatainable client and server-side projects
+						Looking for a MERN Stack Developer to bring your web application
+						ideas to life? Look no further! With expertise in MongoDb, MySql,
+						Express, React, Node, Typescript and GraphQL, I am your go-to
+						developer for building sustainable client and server-side projects.
+						Let's work together to create a dynamic and engaging online
+						experience for your audience!
 					</p>
 
 					<a download='' href={CV} className='button button--flex'>
