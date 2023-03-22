@@ -12,7 +12,7 @@ const Frontend = () => {
 
 						<div>
 							<h3 className='skills__name'>HTML</h3>
-							<span className='skills__level'>Intermediate</span>
+							<span className='skills__level'>Advanced</span>
 						</div>
 					</div>
 
@@ -21,7 +21,7 @@ const Frontend = () => {
 
 						<div>
 							<h3 className='skills__name'>CSS</h3>
-							<span className='skills__level'>Intermediate</span>
+							<span className='skills__level'>Advanced</span>
 						</div>
 					</div>
 
@@ -30,7 +30,7 @@ const Frontend = () => {
 
 						<div>
 							<h3 className='skills__name'>JavaScript / jQuery</h3>
-							<span className='skills__level'>Intermediate</span>
+							<span className='skills__level'>Advanced</span>
 						</div>
 					</div>
 
@@ -39,7 +39,7 @@ const Frontend = () => {
 
 						<div>
 							<h3 className='skills__name'>TypeScript</h3>
-							<span className='skills__level'>Intermediate</span>
+							<span className='skills__level'>Advanced</span>
 						</div>
 					</div>
 				</div>
@@ -50,7 +50,7 @@ const Frontend = () => {
 
 						<div>
 							<h3 className='skills__name'>AntD</h3>
-							<span className='skills__level'>Advanced</span>
+							<span className='skills__level'>Proficient</span>
 						</div>
 					</div>
 
@@ -59,7 +59,7 @@ const Frontend = () => {
 
 						<div>
 							<h3 className='skills__name'>Tailwind</h3>
-							<span className='skills__level'>Advanced</span>
+							<span className='skills__level'>Proficient</span>
 						</div>
 					</div>
 
@@ -68,7 +68,7 @@ const Frontend = () => {
 
 						<div>
 							<h3 className='skills__name'>React</h3>
-							<span className='skills__level'>Advanced</span>
+							<span className='skills__level'>Proficient</span>
 						</div>
 					</div>
 
@@ -77,7 +77,7 @@ const Frontend = () => {
 
 						<div>
 							<h3 className='skills__name'>Ejs</h3>
-							<span className='skills__level'>Intermediate</span>
+							<span className='skills__level'>Advanced</span>
 						</div>
 					</div>
 				</div>

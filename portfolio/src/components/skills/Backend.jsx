@@ -12,7 +12,7 @@ const Backend = () => {
 
 						<div>
 							<h3 className='skills__name'>Node Js</h3>
-							<span className='skills__level'>Intermediate</span>
+							<span className='skills__level'>Advanced</span>
 						</div>
 					</div>
 
@@ -21,7 +21,7 @@ const Backend = () => {
 
 						<div>
 							<h3 className='skills__name'>Express</h3>
-							<span className='skills__level'>Intermediate</span>
+							<span className='skills__level'>Advanced</span>
 						</div>
 					</div>
 
@@ -30,7 +30,7 @@ const Backend = () => {
 
 						<div>
 							<h3 className='skills__name'>GraphQL</h3>
-							<span className='skills__level'>Advanced</span>
+							<span className='skills__level'>Proficient</span>
 						</div>
 					</div>
 
@@ -50,7 +50,7 @@ const Backend = () => {
 
 						<div>
 							<h3 className='skills__name'>MongoDB</h3>
-							<span className='skills__level'>Intermediate</span>
+							<span className='skills__level'>Advanced</span>
 						</div>
 					</div>
 
@@ -68,7 +68,7 @@ const Backend = () => {
 
 						<div>
 							<h3 className='skills__name'>Docker</h3>
-							<span className='skills__level'>Advanced</span>
+							<span className='skills__level'>Proficient</span>
 						</div>
 					</div>
 
@@ -77,7 +77,7 @@ const Backend = () => {
 
 						<div>
 							<h3 className='skills__name'>CI/CD</h3>
-							<span className='skills__level'>Advanced</span>
+							<span className='skills__level'>Proficient</span>
 						</div>
 					</div>
 				</div>
