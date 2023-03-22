@@ -16,9 +16,9 @@
     cursor: pointer;
 }
 
-.qualification__button:hover {
+/* .qualification__button:hover {
     color: var(--title-color-dark);
-}
+} */
 
 .qualification__icon {
     font-size: 1.8rem;
@@ -80,6 +80,13 @@
     transform: translate(6px, -7px);
 }
 
+.active-qualification {
+    background-color: var(--title-color);
+    color: var(--container-color);
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.75rem;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -111,6 +118,11 @@
 @media screen and (max-width: 350px) {
     .qualification__data {
         gap: 0.5rem;
+    }
+
+    .qualification__button {
+        font-size: var(--small-font-size);
+        padding: 0.15rem 0.65rem;
     }
 
 }

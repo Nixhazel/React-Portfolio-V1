@@ -17,7 +17,7 @@ const Qualification = () => {
 					<div
 						className={
 							toggleState === 1
-								? "qualification__button qualification__active button--flex"
+								? "qualification__button qualification__active button--flex active-qualification"
 								: "qualification__button button--flex"
 						}
 						onClick={() => toggleTab(1)}>
@@ -28,11 +28,11 @@ const Qualification = () => {
 					<div
 						className={
 							toggleState === 2
-								? "qualification__button qualification__active button--flex"
+								? "qualification__button qualification__active button--flex active-qualification"
 								: "qualification__button button--flex"
 						}
 						onClick={() => toggleTab(2)}>
-						<i className='uil uil-briefcase-alt qualification__icon'></i>
+						<i className='uil uil-briefcase-alt qualification__icon '></i>
 						Experience
 					</div>
 				</div>
@@ -126,9 +126,7 @@ const Qualification = () => {
 						<div className='qualification__data'>
 							<div>
 								<h3 className='qualification__title'>Software Engineer</h3>
-								<span className='qualification__subtitle'>
-									Decagon
-								</span>
+								<span className='qualification__subtitle'>Decagon</span>
 								<div className='qualification__calender'>
 									<i className='uil uil-calendar-alt'></i> Nov 2022 - Present
 								</div>
@@ -148,10 +146,10 @@ const Qualification = () => {
 								<span className='qualification__line'></span>
 							</div>
 							<div>
-								<h3 className='qualification__title'>MERN Stack Software Engineering Tutor</h3>
-								<span className='qualification__subtitle'>
-									Freelancing
-								</span>
+								<h3 className='qualification__title'>
+									MERN Stack Software Engineering Tutor
+								</h3>
+								<span className='qualification__subtitle'>Freelancing</span>
 								<div className='qualification__calender'>
 									<i className='uil uil-calendar-alt'></i> Sep 2021 - Present
 								</div>
@@ -161,9 +159,7 @@ const Qualification = () => {
 						<div className='qualification__data'>
 							<div>
 								<h3 className='qualification__title'>IT Support</h3>
-								<span className='qualification__subtitle'>
-									Nestoil
-								</span>
+								<span className='qualification__subtitle'>Nestoil</span>
 								<div className='qualification__calender'>
 									<i className='uil uil-calendar-alt'></i> July 2019 - Dec 2020
 								</div>
