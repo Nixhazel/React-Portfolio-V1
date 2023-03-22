@@ -5,6 +5,7 @@ import Work4 from '../../assets/work4.png'
 import Work5 from '../../assets/work5.png'
 import Work6 from '../../assets/work6.png'
 import Work7 from '../../assets/work7.png'
+import Work8 from '../../assets/work8.png'
 
 export const projectsData = [
 	{
@@ -45,7 +46,7 @@ export const projectsData = [
 	{
 		id: 6,
 		image: Work6,
-		title: "Portfolio V0.1",
+		title: "Portfolio V0.2",
 		category: "Front-End",
 		link: "https://nixhazel.github.io/Personal-Profile/",
 	},
@@ -55,6 +56,13 @@ export const projectsData = [
 		title: "Library App",
 		category: "Full-stack",
 		link: "https",
+	},
+	{
+		id: 8,
+		image: Work8,
+		title: "Todo List App Express",
+		category: "Full-stack",
+		link: "https://todo-app-express-e34j.onrender.com",
 	},
 ];
 
