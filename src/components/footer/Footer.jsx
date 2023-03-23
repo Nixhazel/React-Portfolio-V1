@@ -31,28 +31,32 @@ const Footer = () => {
 					<a
 						href='https://www.instagram.com/nixhazel/'
 						className='footer__social-link'
-						target='_blank'>
+						target='_blank'
+						rel='noopener noreferrer'>
 						<i class='bx bxl-instagram'></i>
 					</a>
 
 					<a
 						href='https://www.linkedin.com/in/emmanuel-olokor-56b260244/'
 						className='footer__social-link'
-						target='_blank'>
+						target='_blank'
+						rel='noopener noreferrer'>
 						<i class='bx bxl-linkedin'></i>
 					</a>
 
 					<a
 						href='https://twitter.com/EmmanuelOlokor'
 						className='footer__social-link'
-						target='_blank'>
+						target='_blank'
+						rel='noopener noreferrer'>
 						<i class='bx bxl-twitter'></i>
 					</a>
 
 					<a
 						href='https://github.com/Nixhazel'
 						className='footer__social-link'
-						target='_blank'>
+						target='_blank'
+						rel='noopener noreferrer'>
 						<i class='bx bxl-github'></i>
 					</a>
 				</div>
