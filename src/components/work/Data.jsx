@@ -34,14 +34,14 @@ export const projectsData = [
 		image: Work4,
 		title: "Doctor Apontment Booking App",
 		category: "Full-stack",
-		link: "https4",
+		link: "#portfolio",
 	},
 	{
 		id: 5,
 		image: Work5,
 		title: "E-Move",
 		category: "Full-stack",
-		link: "https",
+		link: "#portfolio",
 	},
 	{
 		id: 6,
@@ -55,7 +55,7 @@ export const projectsData = [
 		image: Work7,
 		title: "Library App",
 		category: "Full-stack",
-		link: "https",
+		link: "https://olokor-library-app.onrender.com",
 	},
 	{
 		id: 8,
