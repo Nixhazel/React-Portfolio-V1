@@ -13,6 +13,13 @@ export const projectsData = [
 		image: Work1,
 		title: "Simon Game",
 		category: "Front-End",
+		description: (
+			<p>
+				<i class='bx bxl-html5'></i>
+				<i class='bx bxl-css3'></i>
+				<i class='bx bxl-javascript'></i>
+			</p>
+		),
 		link: "https://nixhazel-simon-game.netlify.app/",
 	},
 	{
@@ -20,6 +27,13 @@ export const projectsData = [
 		image: Work2,
 		title: "Star-Wars Characters API",
 		category: "Front-End",
+		description: (
+			<div>
+				<i class='bx bxl-html5'></i>
+				<i class='bx bxl-css3'></i>
+				<i class='bx bxl-javascript'></i>
+			</div>
+		),
 		link: "https://olokor-starwars-api-challenge.netlify.app/",
 	},
 	{
@@ -27,6 +41,13 @@ export const projectsData = [
 		image: Work3,
 		title: "Todo List App",
 		category: "Front-End",
+		description: (
+			<div>
+				<i class='bx bxl-html5'></i>
+				<i class='bx bxl-css3'></i>
+				<i class='bx bxl-javascript'></i>
+			</div>
+		),
 		link: "https://olokor-todo-app.netlify.app/",
 	},
 	{
@@ -34,6 +55,14 @@ export const projectsData = [
 		image: Work4,
 		title: "Doctor Apontment Booking App",
 		category: "Full-stack",
+		description: (
+			<div>
+				<i class='bx bxl-mongodb'></i>
+				<i class='uil uil-react'></i>
+				<i class='bx bxl-nodejs'></i>
+				<i class='bx bxl-typescript'></i>
+			</div>
+		),
 		link: "#portfolio",
 	},
 	{
@@ -41,6 +70,14 @@ export const projectsData = [
 		image: Work5,
 		title: "E-Move",
 		category: "Full-stack",
+		description: (
+			<div>
+				<i class='bx bxl-mongodb'></i>
+				<i class='uil uil-react'></i>
+				<i class='bx bxl-nodejs'></i>
+				<i class='bx bxl-typescript'></i>
+			</div>
+		),
 		link: "#portfolio",
 	},
 	{
@@ -48,6 +85,13 @@ export const projectsData = [
 		image: Work6,
 		title: "Portfolio V0.2",
 		category: "Front-End",
+		description: (
+			<div>
+				<i class='bx bxl-html5'></i>
+				<i class='bx bxl-css3'></i>
+				<i class='bx bxl-javascript'></i>
+			</div>
+		),
 		link: "https://nixhazel.github.io/Personal-Profile/",
 	},
 	{
@@ -55,13 +99,26 @@ export const projectsData = [
 		image: Work7,
 		title: "Library App",
 		category: "Full-stack",
+		description: (
+			<div>
+				<i class='bx bxl-mongodb'></i>
+				<i class='uil uil-react'></i>
+				<i class='bx bxl-nodejs'></i>
+				<i class='bx bxl-typescript'></i>
+			</div>
+		),
 		link: "https://olokor-library-app.onrender.com",
 	},
 	{
 		id: 8,
 		image: Work8,
-		title: "Todo List App Express",
+		title: "Todo List App ExpressJS Ejs",
 		category: "Full-stack",
+		description: (
+			<div>
+				<i class='bx bxl-nodejs'></i>
+			</div>
+		),
 		link: "https://todo-app-express-e34j.onrender.com",
 	},
 ];
