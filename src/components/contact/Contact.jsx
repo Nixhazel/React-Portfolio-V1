@@ -1,12 +1,14 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import toast from 'react-hot-toast';
 import './contact.css'
 
 const Contact = () => {
     const [state, handleSubmit] = useForm("xnqybndj");
-		if (state.succeeded) {
+	if (state.succeeded) {
+			toast.success("Mail Sent Successfully!");
 			return <Contact/>;
-		}
+	}
 	return (
 		<section className='contact section' id='contact'>
 			<h2 className='section__title'>Get in touch</h2>

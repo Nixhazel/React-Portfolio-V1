@@ -11,10 +11,12 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
+import { Toaster } from "react-hot-toast";
 
 function App() {
 	return (
 		<>
+			<Toaster position='top-center' reverseOrder={false} />
 			<Header />
 
 			<main>
@@ -23,7 +25,7 @@ function App() {
 				<Skills />
 				<Services />
 				<Qualification />
-				<Work/>
+				<Work />
 				<Testimonials />
 				<Contact />
 			</main>
