@@ -130,9 +130,6 @@ export const projectsNav = [
 	{
 		name: "Front-End",
 	},
-	// {
-	// 	name: "Back-End",
-	// },
 	{
 		name: "Full-stack",
 	}
