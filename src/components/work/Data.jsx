@@ -78,7 +78,7 @@ export const projectsData = [
 				<i class='bx bxl-typescript'></i>
 			</div>
 		),
-		link: "#portfolio",
+		link: "https://e-move.onrender.com/",
 	},
 	{
 		id: 6,
