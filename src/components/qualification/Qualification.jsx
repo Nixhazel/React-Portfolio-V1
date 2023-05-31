@@ -88,7 +88,7 @@ const Qualification = () => {
 									Google Digital Skills for Africa
 								</span>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Oct 2022 - Present
+									<i className='uil uil-calendar-alt'></i> Jan 2023 - May 2023
 								</div>
 							</div>
 
@@ -125,7 +125,9 @@ const Qualification = () => {
 						}>
 						<div className='qualification__data'>
 							<div>
-								<h3 className='qualification__title'>Software Engineer</h3>
+								<h3 className='qualification__title'>
+									MERN Stack Software Engineer
+								</h3>
 								<span className='qualification__subtitle'>Decagon</span>
 								<div className='qualification__calender'>
 									<i className='uil uil-calendar-alt'></i> Nov 2022 - Present
@@ -168,6 +170,24 @@ const Qualification = () => {
 							<div>
 								<span className='qualification__rounder'></span>
 								<span className='qualification__line'></span>
+							</div>
+						</div>
+
+						<div className='qualification__data'>
+							<div></div>
+
+							<div>
+								<span className='qualification__rounder'></span>
+								<span className='qualification__line'></span>
+							</div>
+							<div>
+								<h3 className='qualification__title'>Frontend Engineer</h3>
+								<span className='qualification__subtitle'>
+									Emergency Response Africa
+								</span>
+								<div className='qualification__calender'>
+									<i className='uil uil-calendar-alt'></i> April 2023 - Present
+								</div>
 							</div>
 						</div>
 					</div>
