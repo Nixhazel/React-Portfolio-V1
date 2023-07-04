@@ -6,6 +6,7 @@ import Work5 from '../../assets/work5.png'
 import Work6 from '../../assets/work6.png'
 import Work7 from '../../assets/work7.png'
 import Work8 from '../../assets/work8.png'
+import Work9 from '../../assets/work9.png'
 
 export const projectsData = [
 	{
@@ -117,6 +118,19 @@ export const projectsData = [
 		description: (
 			<div>
 				<i class='bx bxl-nodejs'></i>
+			</div>
+		),
+		link: "https://todo-app-express-e34j.onrender.com",
+	},
+	{
+		id: 9,
+		image: Work9,
+		title: "Instanta Status Page",
+		category: "Front-End",
+		description: (
+			<div>
+				<i class='uil uil-react'></i>
+				<i class='bx bxl-typescript'></i>
 			</div>
 		),
 		link: "https://todo-app-express-e34j.onrender.com",
