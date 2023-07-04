@@ -133,7 +133,7 @@ export const projectsData = [
 				<i class='bx bxl-typescript'></i>
 			</div>
 		),
-		link: "https://todo-app-express-e34j.onrender.com",
+		link: "https://emmanuel-o-olokor.netlify.app/#home",
 	},
 ];
 
