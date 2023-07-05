@@ -19,7 +19,7 @@ const About = () => {
 					<p className='about__description'>
 						Looking for a MERN Stack Developer to bring your web application
 						ideas to life? Look no further! With expertise in MongoDb, MySql,
-						Express, React, Node, Typescript and GraphQL, I am your go-to
+						Express, React, React-Native, Node, Typescript and GraphQL, I am your go-to
 						developer for building sustainable client and server-side projects.
 						Let's work together to create a dynamic and engaging online
 						experience for your audience!
