@@ -64,7 +64,7 @@ export const projectsData = [
 				<i class='bx bxl-typescript'></i>
 			</div>
 		),
-		link: "#portfolio",
+		link: "https://teco-medic.onrender.com",
 	},
 	{
 		id: 5,
@@ -133,7 +133,7 @@ export const projectsData = [
 				<i class='bx bxl-typescript'></i>
 			</div>
 		),
-		link: "https://emmanuel-o-olokor.netlify.app/#home",
+		link: "https://instanta-app.onrender.com",
 	},
 ];
 
