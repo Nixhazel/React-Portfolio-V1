@@ -47,7 +47,7 @@ const Data = () => {
 			<h3 className='home__subtitle'>Software Engineer</h3>
 			<p className='home__description'>
 				As a Software Engineer, I am driven by a deep passion for acquiring new
-				skills and expertise to create stunning and fully responsive websites.
+				skills and expertise to create stunning and fully responsive applications.
 			</p>
 
 			<a href='#contact' className='button button--flex'>

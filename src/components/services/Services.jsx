@@ -224,7 +224,7 @@ const Services = () => {
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
 										Creating interactive and engaging user interfaces with
-										modern JavaScript libraries and frameworks, such as React.
+										modern JavaScript libraries and frameworks, such as React and React Native.
 									</p>
 								</li>
 

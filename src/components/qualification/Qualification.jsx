@@ -71,10 +71,10 @@ const Qualification = () => {
 							<div>
 								<h3 className='qualification__title'>Web Development</h3>
 								<span className='qualification__subtitle'>
-									Udemy The Complete 2022 Web Development Boot camp
+									Udemy The Complete 2023 Web Development Boot camp
 								</span>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Jan 2022 - Present
+									<i className='uil uil-calendar-alt'></i> Dec 2023
 								</div>
 							</div>
 						</div>
@@ -111,7 +111,7 @@ const Qualification = () => {
 									Decagon Institute
 								</span>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Nov 2022 - Present
+									<i className='uil uil-calendar-alt'></i> Nov 2022 - June 2023
 								</div>
 							</div>
 						</div>
@@ -126,7 +126,7 @@ const Qualification = () => {
 						<div className='qualification__data'>
 							<div>
 								<h3 className='qualification__title'>
-									MERN Stack Software Engineer
+									Full Stack Software Engineer
 								</h3>
 								<span className='qualification__subtitle'>Decagon</span>
 								<div className='qualification__calender'>
@@ -160,10 +160,12 @@ const Qualification = () => {
 
 						<div className='qualification__data'>
 							<div>
-								<h3 className='qualification__title'>IT Support</h3>
-								<span className='qualification__subtitle'>Nestoil</span>
+								<h3 className='qualification__title'>
+									Front-End/Mobile Engineer
+								</h3>
+								<span className='qualification__subtitle'>Sterling Bank</span>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> July 2019 - Dec 2020
+									<i className='uil uil-calendar-alt'></i> Aug 2023 - Till Date
 								</div>
 							</div>
 
@@ -188,6 +190,23 @@ const Qualification = () => {
 								<div className='qualification__calender'>
 									<i className='uil uil-calendar-alt'></i> April 2023 - Present
 								</div>
+							</div>
+						</div>
+
+						<div className='qualification__data'>
+							<div>
+								<h3 className='qualification__title'>
+									Front-End Engineer
+								</h3>
+								<span className='qualification__subtitle'>SysServe</span>
+								<div className='qualification__calender'>
+									<i className='uil uil-calendar-alt'></i> May 2023 - July 2023
+								</div>
+							</div>
+
+							<div>
+								<span className='qualification__rounder'></span>
+								<span className='qualification__line'></span>
 							</div>
 						</div>
 					</div>
