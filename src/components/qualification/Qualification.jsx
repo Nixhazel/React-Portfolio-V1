@@ -17,8 +17,8 @@ const Qualification = () => {
 					<div
 						className={
 							toggleState === 1
-								? "qualification__button qualification__active button--flex active-qualification"
-								: "qualification__button button--flex"
+								? 'qualification__button qualification__active button--flex active-qualification'
+								: 'qualification__button button--flex'
 						}
 						onClick={() => toggleTab(1)}>
 						<i className='uil uil-graduation-cap qualification__icon'></i>
@@ -28,8 +28,8 @@ const Qualification = () => {
 					<div
 						className={
 							toggleState === 2
-								? "qualification__button qualification__active button--flex active-qualification"
-								: "qualification__button button--flex"
+								? 'qualification__button qualification__active button--flex active-qualification'
+								: 'qualification__button button--flex'
 						}
 						onClick={() => toggleTab(2)}>
 						<i className='uil uil-briefcase-alt qualification__icon '></i>
@@ -41,8 +41,8 @@ const Qualification = () => {
 					<div
 						className={
 							toggleState === 1
-								? "qualification__content qualification__content-active"
-								: "qualification__content"
+								? 'qualification__content qualification__content-active'
+								: 'qualification__content'
 						}>
 						<div className='qualification__data'>
 							<div>
@@ -115,14 +115,68 @@ const Qualification = () => {
 								</div>
 							</div>
 						</div>
+
+						<div className='qualification__data'>
+							<div>
+								<h3 className='qualification__title'>MSc. Computer Science</h3>
+								<span className='qualification__subtitle'>
+									Federal University of Petroleum Resources
+								</span>
+								<div className='qualification__calender'>
+									<i className='uil uil-calendar-alt'></i> Sep 2023 - Till Date
+								</div>
+							</div>
+
+							<div>
+								<span className='qualification__rounder'></span>
+								<span className='qualification__line'></span>
+							</div>
+						</div>
 					</div>
 
 					<div
 						className={
 							toggleState === 2
-								? "qualification__content qualification__content-active"
-								: "qualification__content"
+								? 'qualification__content qualification__content-active'
+								: 'qualification__content'
 						}>
+						<div className='qualification__data'>
+							<div>
+								<h3 className='qualification__title'>
+									Front-End/Mobile Engineer
+								</h3>
+								<span className='qualification__subtitle'>Sterling Bank</span>
+								<div className='qualification__calender'>
+									<i className='uil uil-calendar-alt'></i> Aug 2023 - Present
+								</div>
+							</div>
+
+							<div>
+								<span className='qualification__rounder'></span>
+								<span className='qualification__line'></span>
+							</div>
+						</div>
+
+						<div className='qualification__data'>
+							<div></div>
+
+							<div>
+								<span className='qualification__rounder'></span>
+								<span className='qualification__line'></span>
+							</div>
+							<div>
+								<h3 className='qualification__title'>
+									Frontend Engineer (Part-time)
+								</h3>
+								<span className='qualification__subtitle'>
+									Emergency Response Africa
+								</span>
+								<div className='qualification__calender'>
+									<i className='uil uil-calendar-alt'></i> April 2023 - Present
+								</div>
+							</div>
+						</div>
+
 						<div className='qualification__data'>
 							<div>
 								<h3 className='qualification__title'>
@@ -130,7 +184,7 @@ const Qualification = () => {
 								</h3>
 								<span className='qualification__subtitle'>Decagon</span>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Nov 2022 - Present
+									<i className='uil uil-calendar-alt'></i> Nov 2022 - Nov 2024
 								</div>
 							</div>
 
@@ -153,51 +207,14 @@ const Qualification = () => {
 								</h3>
 								<span className='qualification__subtitle'>Freelancing</span>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Sep 2021 - Present
+									<i className='uil uil-calendar-alt'></i> Sep 2021 - Sep 2024
 								</div>
 							</div>
 						</div>
 
 						<div className='qualification__data'>
 							<div>
-								<h3 className='qualification__title'>
-									Front-End/Mobile Engineer
-								</h3>
-								<span className='qualification__subtitle'>Sterling Bank</span>
-								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Aug 2023 - Till Date
-								</div>
-							</div>
-
-							<div>
-								<span className='qualification__rounder'></span>
-								<span className='qualification__line'></span>
-							</div>
-						</div>
-
-						<div className='qualification__data'>
-							<div></div>
-
-							<div>
-								<span className='qualification__rounder'></span>
-								<span className='qualification__line'></span>
-							</div>
-							<div>
-								<h3 className='qualification__title'>Frontend Engineer</h3>
-								<span className='qualification__subtitle'>
-									Emergency Response Africa
-								</span>
-								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> April 2023 - Present
-								</div>
-							</div>
-						</div>
-
-						<div className='qualification__data'>
-							<div>
-								<h3 className='qualification__title'>
-									Front-End Engineer
-								</h3>
+								<h3 className='qualification__title'>Front-End Engineer</h3>
 								<span className='qualification__subtitle'>SysServe</span>
 								<div className='qualification__calender'>
 									<i className='uil uil-calendar-alt'></i> May 2023 - July 2023
