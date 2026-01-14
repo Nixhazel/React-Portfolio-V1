@@ -94,7 +94,7 @@ export const projectsData = [
 		category: 'Web',
 		description:
 			'Real-time emergency dispatch dashboard for coordinating responders and incidents.',
-		techStack: ['React', 'TypeScript', 'WebSocket', 'Google Maps API'],
+		techStack: ['React', 'TypeScript', 'Google Maps API'],
 		githubLink: '',
 		liveLink: ''
 	},
@@ -139,7 +139,7 @@ export const projectsData = [
 		category: 'Web',
 		description:
 			'AI-powered operational readiness dashboard with analytics and real-time monitoring.',
-		techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'REST API'],
+		techStack: ['Next.js', 'TypeScript', 'Tailwind CSS'],
 		githubLink: '',
 		liveLink: 'https://www.readinessai.io/'
 	},
@@ -164,7 +164,7 @@ export const projectsData = [
 		category: 'Backend',
 		description:
 			'Full-stack medical booking system with REST APIs, auth, and database management.',
-		techStack: ['Node.js', 'MongoDB', 'Express', 'JWT Auth'],
+		techStack: ['Node.js', 'MongoDB', 'Express', 'REST API'],
 		githubLink: '',
 		liveLink: 'https://teco-medic.onrender.com'
 	},
@@ -175,7 +175,7 @@ export const projectsData = [
 		category: 'Backend',
 		description:
 			'Python-powered API services with PostgreSQL for AI-driven analytics dashboards.',
-		techStack: ['Python', 'PostgreSQL', 'REST API', 'FastAPI'],
+		techStack: ['Python', 'PostgreSQL', 'FastAPI'],
 		githubLink: '',
 		liveLink: 'https://www.readinessai.io/'
 	},
@@ -186,7 +186,7 @@ export const projectsData = [
 		category: 'Backend',
 		description:
 			'Node.js backend with MongoDB for real estate listings, auth, and transactions.',
-		techStack: ['Node.js', 'MongoDB', 'Express', 'JWT Auth'],
+		techStack: ['Node.js', 'MongoDB', 'Express', 'REST API'],
 		githubLink: '',
 		liveLink:
 			'https://fupre-housing-platform-git-dev-emmanuels-projects-f9a07aef.vercel.app/?_vercel_share=PBxDrOJsxMdIF7Cuhx1H3w5B9Bn047hc'
