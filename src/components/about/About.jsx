@@ -1,8 +1,8 @@
-import React from "react";
-import "./about.css";
-import AboutImg from "../../assets/aboutvs.jpg";
-import CV from "../../assets/Emmanuel O. Olokor Resume(CV).pdf";
-import Info from "./Info";
+import React from 'react';
+import './about.css';
+import AboutImg from '../../assets/aboutvs.jpg';
+import CV from '../../assets/Olokor_Emmanuel_Résumé (CV).pdf';
+import Info from './Info';
 
 const About = () => {
 	return (
@@ -11,24 +11,23 @@ const About = () => {
 			<span className='section__subtitle'>My introduction</span>
 
 			<div className='about__container container grid'>
-				<img src={AboutImg} alt='' className='about__img' />
+				<img src={AboutImg} alt='Emmanuel Olokor' className='about__img' />
 
 				<div className='about__data'>
 					<Info />
 
 					<p className='about__description'>
-						Looking for a MERN Stack Developer to bring your web or mobile application
-						ideas to life? Look no further! With expertise in MongoDb, MySql,
-						Express, React, React-Native, Node, Typescript and GraphQL, I am your go-to
-						developer for building sustainable client and server-side projects.
-						Let's work together to create a dynamic and engaging online
-						experience for your audience!
+						Mobile & Frontend Engineer specializing in fintech and
+						emergency-tech solutions. I build high-performance applications
+						using React, React Native, TypeScript, and Expo. Experienced with
+						Node.js and MongoDB for backend integrations. Passionate about
+						creating seamless user experiences and intuitive interfaces.
 					</p>
 
 					<a download='' href={CV} className='button button--flex'>
 						Download CV
 						<svg
-							class='button__icon'
+							className='button__icon'
 							xmlns='http://www.w3.org/2000/svg'
 							width='24'
 							height='24'

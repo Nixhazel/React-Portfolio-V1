@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./qualification.css";
+import React, { useState } from 'react';
+import './qualification.css';
 
 const Qualification = () => {
 	const [toggleState, setToggleState] = useState(1);
@@ -10,7 +10,7 @@ const Qualification = () => {
 	return (
 		<section className='qualification section'>
 			<h2 className='section__title'>Qualification</h2>
-			<span className='section__subtitle'>My personel journey</span>
+			<span className='section__subtitle'>My professional journey</span>
 
 			<div className='qualification__container container'>
 				<div className='qualification__tabs'>
@@ -69,43 +69,6 @@ const Qualification = () => {
 								<span className='qualification__line'></span>
 							</div>
 							<div>
-								<h3 className='qualification__title'>Web Development</h3>
-								<span className='qualification__subtitle'>
-									Udemy The Complete 2023 Web Development Boot camp
-								</span>
-								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Dec 2023
-								</div>
-							</div>
-						</div>
-
-						<div className='qualification__data'>
-							<div>
-								<h3 className='qualification__title'>
-									The Fundamentals for Digital Marketing
-								</h3>
-								<span className='qualification__subtitle'>
-									Google Digital Skills for Africa
-								</span>
-								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Jan 2023 - May 2023
-								</div>
-							</div>
-
-							<div>
-								<span className='qualification__rounder'></span>
-								<span className='qualification__line'></span>
-							</div>
-						</div>
-
-						<div className='qualification__data'>
-							<div></div>
-
-							<div>
-								<span className='qualification__rounder'></span>
-								<span className='qualification__line'></span>
-							</div>
-							<div>
 								<h3 className='qualification__title'>Software Engineering</h3>
 								<span className='qualification__subtitle'>
 									Decagon Institute
@@ -123,7 +86,7 @@ const Qualification = () => {
 									Federal University of Petroleum Resources
 								</span>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Sep 2023 - Till Date
+									<i className='uil uil-calendar-alt'></i> Sep 2023 - Present
 								</div>
 							</div>
 
@@ -142,12 +105,16 @@ const Qualification = () => {
 						}>
 						<div className='qualification__data'>
 							<div>
-								<h3 className='qualification__title'>
-									Front-End/Mobile Engineer
-								</h3>
-								<span className='qualification__subtitle'>Sterling Bank</span>
+								<h3 className='qualification__title'>Lead Mobile Developer</h3>
+								<span className='qualification__subtitle'>
+									Raiz Digital Services
+								</span>
+								<p className='qualification__description'>
+									Built flagship fintech app with React Native & Expo.
+									Integrated wallets, cards, transfers, and loyalty systems.
+								</p>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Aug 2023 - Present
+									<i className='uil uil-calendar-alt'></i> Feb 2023 - Present
 								</div>
 							</div>
 
@@ -166,11 +133,15 @@ const Qualification = () => {
 							</div>
 							<div>
 								<h3 className='qualification__title'>
-									Frontend Engineer (Part-time)
+									Mobile Frontend Engineer
 								</h3>
 								<span className='qualification__subtitle'>
 									Emergency Response Africa
 								</span>
+								<p className='qualification__description'>
+									Built Era-Responder mobile app and Era Dispatch web dashboard
+									with real-time sync.
+								</p>
 								<div className='qualification__calender'>
 									<i className='uil uil-calendar-alt'></i> April 2023 - Present
 								</div>
@@ -180,11 +151,15 @@ const Qualification = () => {
 						<div className='qualification__data'>
 							<div>
 								<h3 className='qualification__title'>
-									Full Stack Software Engineer
+									Mobile & Frontend Engineer
 								</h3>
-								<span className='qualification__subtitle'>Decagon</span>
+								<span className='qualification__subtitle'>Sterling Bank</span>
+								<p className='qualification__description'>
+									Web and mobile apps with React & React Native. UI/UX focus
+									with Agile delivery.
+								</p>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Nov 2022 - Nov 2024
+									<i className='uil uil-calendar-alt'></i> Aug 2023 - Feb 2024
 								</div>
 							</div>
 
@@ -202,28 +177,15 @@ const Qualification = () => {
 								<span className='qualification__line'></span>
 							</div>
 							<div>
-								<h3 className='qualification__title'>
-									MERN Stack Software Engineering Tutor
-								</h3>
-								<span className='qualification__subtitle'>Freelancing</span>
+								<h3 className='qualification__title'>Frontend Engineer</h3>
+								<span className='qualification__subtitle'>Float Transfer</span>
+								<p className='qualification__description'>
+									Secure, compliant fintech systems. Collaborated with backend
+									and security teams.
+								</p>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Sep 2021 - Sep 2024
+									<i className='uil uil-calendar-alt'></i> May 2025 - July 2025
 								</div>
-							</div>
-						</div>
-
-						<div className='qualification__data'>
-							<div>
-								<h3 className='qualification__title'>Front-End Engineer</h3>
-								<span className='qualification__subtitle'>SysServe</span>
-								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> May 2023 - July 2023
-								</div>
-							</div>
-
-							<div>
-								<span className='qualification__rounder'></span>
-								<span className='qualification__line'></span>
 							</div>
 						</div>
 					</div>

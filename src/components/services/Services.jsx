@@ -1,23 +1,23 @@
-import React, { useState } from "react";
-import './services.css'
+import React, { useState } from 'react';
+import './services.css';
 
 const Services = () => {
-    const [toggleState, setToggleState] = useState(0);
+	const [toggleState, setToggleState] = useState(0);
 
-    const toggleTab = (index) => {
-        setToggleState(index)
-    }
+	const toggleTab = (index) => {
+		setToggleState(index);
+	};
 	return (
 		<section className='services section' id='services'>
 			<h2 className='section__title'>Services</h2>
-			<span className='section__subtitle'>What i offer</span>
+			<span className='section__subtitle'>What I offer</span>
 
 			<div className='services__container container grid'>
 				<div className='services__content'>
 					<div>
-						<i className='uil uil-window services__icon'></i>
+						<i className='uil uil-mobile-android services__icon'></i>
 						<h3 className='services__title'>
-							Full Stack <br /> Developer
+							Mobile App <br /> Development
 						</h3>
 					</div>
 					<span className='services__button' onClick={() => toggleTab(1)}>
@@ -28,66 +28,46 @@ const Services = () => {
 					<div
 						className={
 							toggleState === 1
-								? "services__modal active-modal"
-								: "services__modal"
+								? 'services__modal active-modal'
+								: 'services__modal'
 						}>
 						<div className='services__modal-content'>
 							<i
 								onClick={() => toggleTab(0)}
 								className='uil uil-times services__modal-close'></i>
 
-							<h3 className='services__modal-title'>Full Stack Developer</h3>
+							<h3 className='services__modal-title'>Mobile App Development</h3>
 							<p className='services__modal-description'>
-								Service with 2 years of experience. providing quality full stack
-								applications to clients and companies.
+								3+ years building production-grade mobile applications for
+								fintech, health-tech, and e-commerce sectors.
 							</p>
 
 							<ul className='services__modal-services grid'>
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										I Develop Full Stack Web Applications Client and Server
-										side.
+										Cross-platform mobile apps with React Native & Expo
 									</p>
 								</li>
 
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Providing technical support and maintenance services for
-										existing applications.
+										Payment integrations, wallets, and secure transactions
 									</p>
 								</li>
 
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Keeping up-to-date with the latest trends and technologies
-										in full-stack development.
+										Real-time features with WebSocket and push notifications
 									</p>
 								</li>
 
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Integrating third-party APIs and services into applications.
-									</p>
-								</li>
-
-								<li className='services__modal-service'>
-									<i className='uil uil-check-circle services__modal-icon'></i>
-									<p className='services__modal-info'>
-										Troubleshooting and debugging code issues, including
-										performance and scalability optimizations.
-									</p>
-								</li>
-
-								<li className='services__modal-service'>
-									<i className='uil uil-check-circle services__modal-icon'></i>
-									<p className='services__modal-info'>
-										Integrating front-end features with back-end systems, such
-										as handling data input and output, authentication and
-										authorization, or server-side rendering.
+										App Store & Play Store deployment and optimization
 									</p>
 								</li>
 							</ul>
@@ -97,9 +77,9 @@ const Services = () => {
 
 				<div className='services__content'>
 					<div>
-						<i className='uil uil-arrow services__icon'></i>
+						<i className='uil uil-window services__icon'></i>
 						<h3 className='services__title'>
-							Back-End <br /> Developer
+							Frontend <br /> Development
 						</h3>
 					</div>
 					<span onClick={() => toggleTab(2)} className='services__button'>
@@ -110,58 +90,48 @@ const Services = () => {
 					<div
 						className={
 							toggleState === 2
-								? "services__modal active-modal"
-								: "services__modal"
+								? 'services__modal active-modal'
+								: 'services__modal'
 						}>
 						<div className='services__modal-content'>
 							<i
 								onClick={() => toggleTab(0)}
 								className='uil uil-times services__modal-close'></i>
 
-							<h3 className='services__modal-title'>Back-End Developer</h3>
+							<h3 className='services__modal-title'>Frontend Development</h3>
 							<p className='services__modal-description'>
-								Service with 2 years of experience. providing quality server
-								side applications to clients and companies.
+								Building responsive, performant web applications with modern
+								frameworks and best practices.
 							</p>
 
 							<ul className='services__modal-services grid'>
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Server Side Development.
+										Modern web apps with React, Next.js & TypeScript
 									</p>
 								</li>
 
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Developing and maintaining server-side applications using a
-										variety of languages and frameworks.
+										Admin dashboards and data visualization interfaces
 									</p>
 								</li>
 
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Creating and managing databases, including data modeling,
-										schema design, and querying.
+										Responsive design with Tailwind CSS and modern UI libraries
 									</p>
 								</li>
 
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Implementing security measures and best practices to protect
-										applications and user data from vulnerabilities and threats.
+										State management with Redux, Zustand, and React Query
 									</p>
 								</li>
-
-								{/* <li className='services__modal-service'>
-									<i className='uil uil-check-circle services__modal-icon'></i>
-									<p className='services__modal-info'>
-										I Develop Full Stack Web Applications.
-									</p>
-								</li> */}
 							</ul>
 						</div>
 					</div>
@@ -169,9 +139,9 @@ const Services = () => {
 
 				<div className='services__content'>
 					<div>
-						<i className='uil uil-edit services__icon'></i>
+						<i className='uil uil-transaction services__icon'></i>
 						<h3 className='services__title'>
-							Front-End <br /> Developer
+							Fintech <br /> Solutions
 						</h3>
 					</div>
 					<span onClick={() => toggleTab(3)} className='services__button'>
@@ -182,58 +152,46 @@ const Services = () => {
 					<div
 						className={
 							toggleState === 3
-								? "services__modal active-modal"
-								: "services__modal"
+								? 'services__modal active-modal'
+								: 'services__modal'
 						}>
 						<div className='services__modal-content'>
 							<i
 								onClick={() => toggleTab(0)}
 								className='uil uil-times services__modal-close'></i>
 
-							<h3 className='services__modal-title'>Front-End Developer</h3>
+							<h3 className='services__modal-title'>Fintech Solutions</h3>
 							<p className='services__modal-description'>
-								Service with 2 years of experience. Providing quality Client
-								side applications to clients and companies.
+								Specialized in building secure financial technology applications
+								with seamless user experiences.
 							</p>
 
 							<ul className='services__modal-services grid'>
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Client Side Development.
+										Digital wallet and payment gateway integrations
 									</p>
 								</li>
 
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Designing and building user interfaces using modern
-										front-end frameworks.
+										Card management and virtual card systems
 									</p>
 								</li>
 
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Writing clean, efficient, and well-documented code,
-										following industry standards and best practices.
+										P2P transfers and international remittance features
 									</p>
 								</li>
 
 								<li className='services__modal-service'>
 									<i className='uil uil-check-circle services__modal-icon'></i>
 									<p className='services__modal-info'>
-										Creating interactive and engaging user interfaces with
-										modern JavaScript libraries and frameworks, such as React and React Native.
-									</p>
-								</li>
-
-								<li className='services__modal-service'>
-									<i className='uil uil-check-circle services__modal-icon'></i>
-									<p className='services__modal-info'>
-										Implementing search engine optimization (SEO) strategies to
-										improve the visibility and ranking of websites on search
-										engines.
+										Loyalty programs and rewards systems
 									</p>
 								</li>
 							</ul>

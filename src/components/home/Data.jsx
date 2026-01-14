@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Data = () => {
 	return (
@@ -11,7 +11,7 @@ const Data = () => {
 					viewBox='0 0 48 48'
 					fill='none'
 					xmlns='http://www.w3.org/2000/svg'
-					class='home__hand'>
+					className='home__hand'>
 					<path
 						d='M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z'
 						fill='#FFDD67'></path>
@@ -44,16 +44,17 @@ const Data = () => {
 						fill='#EBA352'></path>
 				</svg>
 			</h1>
-			<h3 className='home__subtitle'>Software Engineer</h3>
+			<h3 className='home__subtitle'>Mobile & Frontend Engineer</h3>
 			<p className='home__description'>
-				As a Software Engineer, I am driven by a deep passion for acquiring new
-				skills and expertise to create stunning and fully responsive applications.
+				Building high-performance fintech and real-time applications for mobile
+				and web. Specialized in React, React Native, TypeScript, and modern
+				frontend architectures.
 			</p>
 
 			<a href='#contact' className='button button--flex'>
 				Say Hello
 				<svg
-					class='button__icon'
+					className='button__icon'
 					xmlns='http://www.w3.org/2000/svg'
 					width='24'
 					height='24'

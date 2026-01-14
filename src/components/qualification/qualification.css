@@ -64,6 +64,13 @@
     font-size: var(--small-font-size);
 }
 
+.qualification__description {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color);
+    margin-bottom: var(--mb-0-5);
+    line-height: 1.4;
+}
+
 .qualification__rounder {
     display: inline-block;
     width: 13px;
