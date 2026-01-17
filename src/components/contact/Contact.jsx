@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 import './contact.css'
 
 const Contact = () => {
-    const [state, handleSubmit] = useForm("xnqybndj");
+    const [state, handleSubmit] = useForm('mreeejgj');
 	if (state.succeeded) {
 			toast.success("Mail Sent Successfully!");
 			return <Contact/>;
@@ -45,7 +45,7 @@ const Contact = () => {
 							</a>
 						</div>
 
-						<div className='contact__card'>
+						{/* <div className='contact__card'>
 							<i className='bx bxl-messenger contact__card-icon'></i>
 							<h3 className='contact__card-title'>Messenger</h3>
 							<span className='contact__card-data'>eolokor1</span>
@@ -53,12 +53,12 @@ const Contact = () => {
 								Write me
 								<i className='bx bx-right-arrow-alt contact__button-icon'></i>
 							</a>
-						</div>
+						</div> */}
 					</div>
 				</div>
 
 				<div className='contact__content'>
-					<h3 className='contact__title'>Write me your project</h3>
+					<h3 className='contact__title'>Let's Work Together</h3>
 
 					<form className='contact__form' onSubmit={handleSubmit}>
 						<div className='contact__form-div'>
@@ -98,7 +98,7 @@ const Contact = () => {
 								cols='30'
 								rows='10'
 								className='contact__form-input'
-								placeholder='Write your project'></textarea>
+								placeholder='Your project'></textarea>
 							<ValidationError
 								prefix='Message'
 								field='message'
