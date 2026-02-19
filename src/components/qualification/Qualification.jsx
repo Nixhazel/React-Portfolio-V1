@@ -159,7 +159,7 @@ const Qualification = () => {
 									with Agile delivery.
 								</p>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Aug 2023 - Feb 2024
+									<i className='uil uil-calendar-alt'></i> Aug 2023 - Present
 								</div>
 							</div>
 
