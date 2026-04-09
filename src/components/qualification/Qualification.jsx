@@ -86,7 +86,7 @@ const Qualification = () => {
 									Federal University of Petroleum Resources
 								</span>
 								<div className='qualification__calender'>
-									<i className='uil uil-calendar-alt'></i> Sep 2023 - Present
+									<i className='uil uil-calendar-alt'></i> Sep 2023 - March 2025
 								</div>
 							</div>
 
