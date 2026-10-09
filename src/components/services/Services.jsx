@@ -38,7 +38,7 @@ const Services = () => {
 
 							<h3 className='services__modal-title'>Mobile App Development</h3>
 							<p className='services__modal-description'>
-								3+ years building production-grade mobile applications for
+								4+ years building production-grade mobile applications for
 								fintech, health-tech, and e-commerce sectors.
 							</p>
 
